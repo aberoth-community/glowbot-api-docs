@@ -1,0 +1,34 @@
+{
+  "name": "glowbot-api-docs",
+  "version": "0.0.0",
+  "description": "Glowbot-api docs",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "python3 -m venv venv",
+    "postinstall": ". ./venv/bin/activate && pip install -r requirements.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aberoth-community/glowbot-api-docs.git"
+  },
+  "keywords": [
+    "aberoth",
+    "rpg",
+    "glowbot",
+    "glowbot-api"
+  ],
+  "author": "ashnel3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aberoth-community/glowbot-api-docs/issues"
+  },
+  "homepage": "https://github.com/aberoth-community/glowbot-api-docs#readme",
+  "devDependencies": {
+    "isomorphic-fetch": "^3.0.0"
+  }
+}
+
